@@ -2,21 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-
-
-    return (
-      <div className="App">
-        <h1>Hello World!</h1>
-        <h1>Welcome to my card</h1>
-        <img src="https://cdn.creatureandcoagency.com/uploads/2021/03/FrogLifecycle_Body_8.png" alt="Frog" />
-        <div className="paragraph">
-          <p>This is a picture of a frog that I found on the internet. It looks really cool, and I thought it would be nice to share.</p>
-        </div>
-        <div class="btn-wrapper">
- <a href="https://hax.psu.edu">
-   <button>Details</button> </a> </div>
-      </div>
-    );
-  }
+  return (
+    <div class="card-container">
+      <div class="card-content">
+        <h2>PSU College of IST </h2>
+        <p>the College of IST</p>
+        <img src="https://sites.psu.edu/istclub/wp-content/uploads/sites/12209/2014/08/cropped-IST.jpg" alt="Card Image" width="200" height="150"/>
+  
+  
+<a href="https://hax.psu.edu" class="details-button"> <button> Details</button></a>
+    
+ 
+</div>
+</div>
+  );
+}
 
 export default App;
